@@ -3,20 +3,25 @@ title: "Project Structure"
 teaching: 0
 exercises: 0
 questions:
-- "Key question"
+- "How can you organize a project so it makes sense to your future self?"
 objectives:
-- "Recognizing the difference between raw and modified data."
-- "Document the life history of a file as is gets modified."
-- "Associate file history with directory structure and explain why it is important to make apparent in project."
+- "Recognize the difference between raw and modified data"
+- "Document the life history of a file as is gets modified"
+- "Associate file history with directory structure and explain why it is important to make apparent in project"
 keypoints:
-- "Clearly label the file or make the location for the file that makes sense to future you and collaborators."
+- "Raw data remains raw and should never be modified"
+- "For something to be reproducible every step needs to be written down"
+- "Clearly label the file for future you and collaborators"
+- "Use folder and sub-folders to illustrate the history of the files in your project"
 ---
 
-Characteristics of files
+Here are some characteristics of files that you want to pay attention to
 1. File history
 2. File function
 3. File format
 4. File origin
+
+We will start thinking about how to capture these characteristics using folders and simple naming schemes.
 
 ## Activity: Sanity-check the data
 
