@@ -19,6 +19,7 @@ keypoints:
 - "README files should be made in a plain text format."
 ---
 ## Why READMEs
+
 Every project should describe to users what the purpose of the project is. This is commonly done in a README file. As the starting point for a project the README file is formatted as plain text (or [markdown](https://guides.github.com/features/mastering-markdown/)) to make it easily readable. A README file should include the following information:
 
 - The project name
@@ -29,8 +30,7 @@ Every project should describe to users what the purpose of the project is. This 
 
 ## Adding a Top Level README
 
-To add a README to our project, open a text editor. For Mac users this can be [BBEDIT](http://www.barebones.com/products/bbedit/index.html), [NotePad++](https://notepad-plus-plus.org/) for Windows users.
-
+To add a README to our project, open a text editor. For Mac users this can be [BBEdit](http://www.barebones.com/products/bbedit/index.html), [NotePad++](https://notepad-plus-plus.org/) for Windows users.
 
 Name
 Today’s date
@@ -38,17 +38,15 @@ Contact info
 Data Origin
 3-4 sentences about the goal of the project
 
-
 Make a README in a text editor (already installed)
-Open text editor
-Good, better, best. re: README
-GOOD: Plain text
-BETTER: Date, name, contact info, short summary
-BEST: Date, name, contact info, short summary, history of all changes to the project
+
+* Open text editor
+* Good, better, best. re: README
+    * GOOD: Plain text
+    * BETTER: Date, name, contact info, short summary
+    * BEST: Date, name, contact info, short summary, history of all changes to the project
 
 have example README text in code font
-
-
 
 ## Adding a README in a Subdirectory
 
