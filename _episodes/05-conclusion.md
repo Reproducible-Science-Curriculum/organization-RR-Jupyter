@@ -9,6 +9,16 @@ objectives:
 keypoints:
 - "First key point."
 ---
+## Completing our project directory
+Now that we've finished cleaning our data, it's time to move on to exploring the data. For this, we'll need some scripts. Since we anticipate writing a lot of code to analyze this data, we'll create another root-level folder called `code`. We'll keep all analysis scripts in here.
+
+Finally, we'll also want to create some outputs from this project, perhaps in the form of figures or a document that summarizes our work. As such, we'll create the following folders in the root-level:
+
+1. `output` will store results of any analysis. This may be statistics we've calculate, the results of fitting a model, or features extracted from the cleaned data.
+2. `doc` will contain any documents we are generating from this data. It could contain a latex document for a manuscript we're prepping for publication.
+
+Now that our folder is ready to go, it's time to start getting our hands dirty with the data. This will be covered in the next module.
+
 ## The value of record keeping
 Most data needs to be cleaned, re-organized, or otherwise prepared for subsequent data analysis. In order to do this reproducibly and effectively. When beginning a new project or analyzing new data, always remember to:
 
