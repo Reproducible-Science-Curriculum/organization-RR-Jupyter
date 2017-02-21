@@ -16,6 +16,7 @@ keypoints:
 ---
 
 Here are some characteristics of files that you want to pay attention to
+
 1. File history
 2. File function
 3. File format
@@ -27,7 +28,7 @@ We will start thinking about how to capture these characteristics using folders 
 
 Let's take a look at the data in Excel before we start working on it. Does everything look correct?   
 
-![Screenshot](gapminderDataFiveYear_superDirty-screenshot.png)
+![Screenshot]({{ page.root }}/assets/img/gapminderDataFiveYear_superDirty-screenshot.png)
 
 **Discuss with your partner:** Are we sure that we everything is correct by just looking at the file in excel?
 Should we fix any of the problems we see in this file? Why or why not?
