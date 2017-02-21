@@ -27,7 +27,7 @@ We will start thinking about how to capture these characteristics using folders 
 
 Let's take a look at the data in Excel before we start working on it. Does everything look correct?   
 
-![Screenshot]()
+![Screenshot](gapminderDataFiveYear_superDirty-screenshot.png)
 
 **Discuss with your partner:** Are we sure that we everything is correct by just looking at the file in excel?
 Should we fix any of the problems we see in this file? Why or why not?
@@ -106,4 +106,4 @@ Stay tuned for the exciting next episode: Metadata, your projects
 ## Tips and Tricks
 
 - Consider making your data readonly, so you do not inadvertantly change the file.
-    
+
