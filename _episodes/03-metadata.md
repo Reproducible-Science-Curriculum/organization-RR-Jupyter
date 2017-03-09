@@ -4,14 +4,13 @@ teaching: 0
 exercises: 0
 questions:
 - "Why should we use README files?"
-- "What format whould README files be in?"
+- "What format should README files be in?"
 - "What type of information goes into a README file?"
 - "When should a README file be updated?"
 objectives:
-- "Describe the purpose of inclding README files with your project."
+- "Describe the purpose of including README files with your project."
 - "Describe common locations for README files."
 - "Describe the appropriate level of detail to include in a README."
-- 
 keypoints:
 - "All projects should include a README file in the top directory."
 - "README files should include contact points and names of maintainers, date, brief description of the intent of the project, and the source of any data files."
@@ -28,17 +27,13 @@ Every project should describe to users what the purpose of the project is. This 
 - Three or four sentences about the goal of the project
 - If the project uses data from an external source, where the data is from
 
+Think about the beginning of this lesson, when we had nothing but a file with a name. These are the things that would have made it easy to make sense of that data.
+
 ## Adding a Top Level README
 
 To add a README to our project, open a text editor. For Mac users this can be [BBEdit](http://www.barebones.com/products/bbedit/index.html), [NotePad++](https://notepad-plus-plus.org/) for Windows users.
 
-Name
-Today’s date
-Contact info
-Data Origin
-3-4 sentences about the goal of the project
-
-Make a README in a text editor (already installed)
+Now, let's make a README
 
 * Open text editor
 * Good, better, best. re: README
@@ -46,14 +41,28 @@ Make a README in a text editor (already installed)
     * BETTER: Date, name, contact info, short summary
     * BEST: Date, name, contact info, short summary, history of all changes to the project
 
+~~~
+Project name
+Today's date
+Maintainer's contact info
+Data Origin
+3-4 sentences about the goal of the project
+~~~
+{: .source}
+
 have example README text in code font
 
 ## Adding a README in a Subdirectory
 
-how does this readme differ from the main
+README files in subdirectories are a good idea too.
+
+- For raw data directories, you should include the location (e.g URL) where the file was retrieved or generated.
+- For modified data directories, you should include the exact tools and steps used to modify the data, along with dates
+- For other directories like code or documentation, the README should communicate what the directories contain.
 
 ## Keeping the READMEs up-to-date
 
+FIXME
 
 
 
