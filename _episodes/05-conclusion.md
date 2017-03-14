@@ -1,6 +1,6 @@
 ---
 title: "Concluding thoughts"
-teaching: 3
+teaching: 5
 exercises: 0
 questions:
 - "How do you organize data to encourage reproducibility across different projects?"

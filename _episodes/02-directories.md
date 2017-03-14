@@ -1,7 +1,7 @@
 ---
 title: "Project Structure"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 5
 questions:
 - "How can you organize a project so it makes sense to your future self?"
 objectives:
@@ -42,7 +42,7 @@ Let's take a look at the data in Excel before we start working on it. Does every
 
 What if we were to change this file?
 
-- Changes made by hand (in GUI applications) are incredibly hard to track
+- Changes made by hand (in GUI applications) are incredibly hard to track. Some tools are better than others, but this is outside our control.
 - If we changed our only copy of the raw data, we may never be able to reproduce what we did.
 - We want to track **exactly** what changed in the file, and if we must do it by hand, we should make that easy to see.
 

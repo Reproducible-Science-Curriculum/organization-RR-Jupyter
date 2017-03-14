@@ -1,7 +1,7 @@
 ---
 title: "Metadata"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 5
 questions:
 - "Why should we use README files?"
 - "What format should README files be in?"
