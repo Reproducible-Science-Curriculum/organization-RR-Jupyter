@@ -92,7 +92,7 @@ Later never comes, or we forget the details by the time it does. So another good
 > and retrieved from [1]. The dataset reflects population-level statistics about
 > many countries spanning the last several decades.
 >
-> [1] https://github.com/Reproducible-Science-Curriculum/data-exploration-RR-Jupyter/blob/master/gapminderDataFiveYear_superDirty.txt
+> [1] https://github.com/Reproducible-Science-Curriculum/organization-RR-Jupyter/raw/gh-pages/data/gapminderDataFiveYear_superDirty.xlsx
 >
 >
 > ## Summary of changes
