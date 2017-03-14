@@ -66,7 +66,7 @@ README files in subdirectories are a good idea too. Often there are many files, 
 - Dates are good on file names here
 - When changing something in a directory, you should add a line at the README
 
-## Self-documenting
+## Self-documenting Projects
 
 READMEs are commentary on what we consider the "real work", and realistically can be an afterthought. We've all had projects under a deadline or someone asking for a result, and the documentation step is easy to defer until later.
 
