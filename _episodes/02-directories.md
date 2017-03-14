@@ -129,3 +129,8 @@ don't put a file in `02_cleaned` until we're done with it. And if we have more c
 
 There are other characteristics of the data that don't fit into file and directory names, such as the origin of the data. A common solution to keeping this detailed information in the project is adding metadata files. We will cover practices for metadata in the next section.
 
+> ## Good, Better, Best
+> * **Good** Descriptive file and directory names that accurately convey function and history
+> * **Better** ISO 8601 date stamps and sortable names in their names, write-protect raw data.
+> * **Best** Version control to track modifications
+{: .checklist}
