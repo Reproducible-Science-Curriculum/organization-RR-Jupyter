@@ -9,6 +9,7 @@ objectives:
 - "Document the life history of a file as it gets modified"
 - "Associate file history with directory structure and explain why it is important to make apparent in project"
 keypoints:
+- "Make it easy to answer the 5 W's"
 - "Raw data remains raw and should never be modified"
 - "For something to be reproducible every step needs to be written down"
 - "Clearly label the file for future you and collaborators"
@@ -37,22 +38,22 @@ Let's take a look at the data in Excel before we start working on it. Does every
 > No, keep original data forever unchanged.
 >
 > There should always be a copy of the data in its most raw state. Never make corrections to the original data file. There are several ways to ensure that the original data stays unchanged.
+{: .callout}
 
-<!-- BEGIN: needs clarification -->
 What if we were to change this file?
 
--  Yes,
+- Keeping track of changes done by hand is **hard**. We need to track that the file did indeed change, and **what** changed. When changing files by hand, there are a few things you can to to highlight them. Ask yourself: How will I make it obvious to tell what changed from the original state of the file?
 
-Is it obvious how to go back to the original state of the file?
+Some ideas to detect changes:
 
-- save date stamp.
-- the cell is a different color.
-- compare with original.
-- someone wrote down exactly what was changed.
+- Include the date stamp in the file name
+    - `2017-03-15_01_dleehr-fixes_gapminderDataFiveYear_superDirty.xlsx`
+- Color the changed cells to highlight the changes
+- Side-by-side comparison with original
+- Record exact changes in a README file.
 
 Clearly label the file or make the location for the file that makes sense to future you and collaborators.
 
-<!-- END: needs clarification -->
 ## How to structure your project folders
 
 The most important way to delineate file types and organize the workflow of your project is to design your file structure at the very start of your project's history.
@@ -106,9 +107,25 @@ projects/
 
 With this structure, we can capture and communicate most of the characteristics of data as it exsts in our project: history, function, and format. In addition, there is a clear understanding of how to proceed to the next step, data cleaning.
 
-There are other characteristics of the data that don't fit into file and directory names, such as the origin of the data. A common solution to keeping this detailed information in the project is adding metadata files. We will cover practices for metadata in the next section.
+## Why `01_cleaning` and `02_cleaned`?
+
+Realistically, we may not completely **clean** a file in one pass. Sometimes we'll get interrupted, and sometimes we'll catch things later and need to revise the file.
+
+1. Copy the original raw data into `01_cleaning` (e.g. the xlsx file)
+2. Edit the file in `01_cleaning`, saving there and recording changes.
+3. Export a cleaned version in CSV or Tab-delimited format to `02_cleaned`.
+
+If we catch things later, we
+don't put a file in `02_cleaned` until we're done with it. And if we have more cleaning to do, we start from `01_cleaning` and produce a new file in `02_cleaned`.
 
 > ## Tips and Tricks
 >
-> - Consider making your raw data read-only, so you cannot inadvertently change the file.
+> - Make your raw data read-only, so you cannot inadvertently change the file.
+> - Put gnarly incoming data in **quarantine**, then convert, rename, and document.
+> - Use ISO 8601 (YYYY-MM-DD) dates at the beginning of data file names to make them sortable
+{: .callout}
+
+## Record keeping
+
+There are other characteristics of the data that don't fit into file and directory names, such as the origin of the data. A common solution to keeping this detailed information in the project is adding metadata files. We will cover practices for metadata in the next section.
 
