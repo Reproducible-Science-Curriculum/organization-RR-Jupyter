@@ -66,14 +66,6 @@ README files in subdirectories are a good idea too. Often there are many files, 
 - Dates are good on file names here
 - When changing something in a directory, you should add a line at the README
 
-## Origin of Data files
-
-To record the origin of data files, be as specific as possible. Where did the file come from? When was it retreived? What is it?
-
-- Date retrieved
-- URL or other location
-- Checksum (command-line `shasum` or `md5`)
-
 ## Self-documenting
 
 READMEs are commentary on what we consider the "real work", and realistically can be an afterthought. We've all had projects under a deadline or someone asking for a result, and the documentation step is easy to defer until later.
