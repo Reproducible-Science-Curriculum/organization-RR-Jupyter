@@ -3,11 +3,19 @@ title: "Concluding thoughts"
 teaching: 3
 exercises: 0
 questions:
-- "Key question"
+- "How do you organize data to encourage reproducibility across different projects?"
+- "How do you record the origin and history of data?"
+- "How do build up a project that can be understood by yourself or others in the future?"
 objectives:
-- "First objective."
+- "Describe a directory structure that works for you and your work"
+- "Describe a process/workflow that can evolve with your project"
 keypoints:
-- "First key point."
+- "Organize files so that they make intuitive sense and follow the narrative of the data analysis."
+- "Populate folders with metadata that describes the folder contents, where those contents came from, and gives context for the analyses that you're about to perform."
+- "Always make copies of data for modification, and never over-write the raw data."
+- "Keep a clear record of every modification that has been made. Ideally, this is in the form of a script that can automatically generate cleaned data from the raw data."
+- "If manual cleaning is necessary, create a README file that details every single change that has been made, such that a newcomer could re-create these changes."
+
 ---
 ## Completing our project directory
 
@@ -22,10 +30,4 @@ Now that our folder is ready to go, it's time to start getting our hands dirty w
 
 ## The value of record keeping
 
-Most data needs to be cleaned, re-organized, or otherwise prepared for subsequent data analysis. In order to do this reproducibly and effectively. When beginning a new project or analyzing new data, always remember to:
-
-1. Organize files so that they make intuitive sense and follow the narrative of the data analysis.
-2. Populate folders with metadata that describes the folder contents, where those contents came from, and gives context for the analyses that you're about to perform.
-3. Always make copies of data for modification, and never over-write the raw data.
-4. Keep a clear record of every modification that has been made. Ideally, this is in the form of a script that can automatically generate cleaned data from the raw data.
-5. If manual cleaning is necessary, create a README file that details every single change that has been made, such that a newcomer could re-create these changes.
+Most data needs to be cleaned, re-organized, or otherwise prepared for subsequent data analysis. In order to do this reproducibly and effectively. When beginning a new project or analyzing new data, always remember these lessons.
