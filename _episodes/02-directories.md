@@ -42,7 +42,9 @@ Let's take a look at the data in Excel before we start working on it. Does every
 
 What if we were to change this file?
 
-- Keeping track of changes done by hand is **hard**. We need to track that the file did indeed change, and **what** changed. When changing files by hand, there are a few things you can to to highlight them. Ask yourself: How will I make it obvious to tell what changed from the original state of the file?
+- Changes made by hand (in GUI applications) are incredibly hard to track
+- If we changed our only copy of the raw data, we may never be able to reproduce what we did.
+- We want to track **exactly** what changed in the file, and if we must do it by hand, we should make that easy to see.
 
 Some ideas to detect changes:
 
@@ -130,7 +132,7 @@ don't put a file in `02_cleaned` until we're done with it. And if we have more c
 There are other characteristics of the data that don't fit into file and directory names, such as the origin of the data. A common solution to keeping this detailed information in the project is adding metadata files. We will cover practices for metadata in the next section.
 
 > ## Good, Better, Best
-> * **Good** Descriptive file and directory names that accurately convey function and history
-> * **Better** ISO 8601 date stamps and sortable names in their names, write-protect raw data.
-> * **Best** Version control to track modifications
+> * **Good** Separate input, code, and from output using different folders or file names and keep track of all the input->output changes in separate files. Use descriptive file/directory names that convey function and history
+> * **Better** Consistent folder structure across projects, ISO 8601 date stamps in file and directory names, read-only raw data
+> * **Best** Script to generate folder structures, Version control to track modifications
 {: .checklist}
