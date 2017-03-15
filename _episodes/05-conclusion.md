@@ -7,8 +7,8 @@ questions:
 - "How do you record the origin and history of data?"
 - "How do build up a project that can be understood by yourself or others in the future?"
 objectives:
-- "Describe a directory structure that works for you and your work"
-- "Describe a process/workflow that can evolve with your project"
+- "Design and justify the directory structure and file naming for your project"
+- "Describe two ways to maintain the integrity of raw data"
 keypoints:
 - "Organize files so that they make intuitive sense and follow the narrative of the data analysis."
 - "Populate folders with metadata that describes the folder contents, where those contents came from, and gives context for the analyses that you're about to perform."
