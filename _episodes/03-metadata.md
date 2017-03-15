@@ -1,7 +1,7 @@
 ---
 title: "Metadata"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 5
 questions:
 - "Why should we use README files?"
 - "What format should README files be in?"
@@ -29,6 +29,8 @@ Every project should describe to users what the purpose of the project is. This 
 
 Think about the beginning of this lesson, when we had nothing but a file with a name. These are the things that would have made it easy to make sense of that data.
 
+So, before we make any modifications to the raw data, we need a practice for how to record the initial state of the data, as well as our modifications.
+
 ## Adding a Top Level README
 
 To add a README to our project, open a text editor. For Mac users this can be [BBEdit](http://www.barebones.com/products/bbedit/index.html), [NotePad++](https://notepad-plus-plus.org/) for Windows users.
@@ -36,10 +38,7 @@ To add a README to our project, open a text editor. For Mac users this can be [B
 Now, let's make a README
 
 * Open text editor
-* Good, better, best. re: README
-    * GOOD: Plain text
-    * BETTER: Date, name, contact info, short summary
-    * BEST: Date, name, contact info, short summary, history of all changes to the project
+* Start writing
 
 ~~~
 Project name
@@ -50,11 +49,13 @@ Data Origin
 ~~~
 {: .source}
 
-have example README text in code font
+* Save as `README` in the project directory.
+
+This file serves as the starting point for future you, or anyone who receives this data.
 
 ## Adding a README in a Subdirectory
 
-README files in subdirectories are a good idea too.
+README files in subdirectories are a good idea too. Often there are many files, and it's distracting to fill the top-level README with details about smaller pieces of the project.
 
 - For raw data directories, you should include the location (e.g URL) where the file was retrieved or generated.
 - For modified data directories, you should include the exact tools and steps used to modify the data, along with dates
@@ -62,7 +63,54 @@ README files in subdirectories are a good idea too.
 
 ## Keeping the READMEs up-to-date
 
-FIXME
+- Dates are good on file names here
+- When changing something in a directory, you should add a line at the README
+
+## Self-documenting Projects
+
+READMEs are commentary on what we consider the "real work", and realistically can be an afterthought. We've all had projects under a deadline or someone asking for a result, and the documentation step is easy to defer until later.
+
+Later never comes, or we forget the details by the time it does. So another good practice is to use good, descriptive names on files, directories, and in code. These are for our benefit, not the computer.
+
+> ## Project README
+> `gapminder/README.md`
+> ~~~
+> gapminder
+> =========
+>
+> ## Project Summary
+>
+> This project analyzes population-level statistics about many countries to
+> determine if there is a relationship between x and y.
+>
+> Started: 2017-03-15
+> Maintainer: Dan Leehr dan.leehr@duke.edu
+>
+> ## Data Origin
+>
+> This data is the gapminder dataset, originally collected and published in XXX,
+> and retrieved from [1]. The dataset reflects population-level statistics about
+> many countries spanning the last several decades.
+>
+> [1] https://github.com/Reproducible-Science-Curriculum/organization-RR-Jupyter/raw/gh-pages/data/gapminderDataFiveYear_superDirty.xlsx
+>
+>
+> ## Summary of changes
+>
+> 2017-03-15	dan.leehr@duke.edu	Inherited gapminderDataFiveYear_superDirty.xlsx from Frank Grimes.
+> 					Placed raw data in 00_raw.
+> 2017-03-15	dan.leehr@duke.edu	Cleaned gapminderDataFiveYear_superDirty.xlsx file in 01_cleaning and
+> 					exported to CSV format in 02_cleaned.
+> ~~~
+> {: .source}
+{: .solution}
+
+> ## Good, Better, Best
+>
+> - **Good** Plain text
+> - **Better** Date, name, contact info, short summary, Markdown
+> - **Best** Plus history of all changes to the project, checksums
+{: .checklist}
 
 
 

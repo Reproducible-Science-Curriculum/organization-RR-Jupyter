@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-teaching: 0
+teaching: 5
 exercises: 0
 questions:
 - "How do you approach and evaluate data of unknown origin?"
@@ -19,7 +19,7 @@ You have just started a new job and have to take over the work of a previous emp
 1. Make sense of all the data he has collected
 2. Write a report on the findings to share with others in the lab, so they may use the data and analyses in their own work.
 
-The file which was sent to you can be downloaded [here]({{ page.root }}/data/gapminderDataFiveYear_superDirty.txt).
+The file which was sent to you can be downloaded here: [gapminderDataFiveYear_superDirty.xlsx]({{ page.root }}/data/gapminderDataFiveYear_superDirty.xlsx).
 
 Download the file. With the goal of _making sense of the data_, what can you tell me about this data, and how do you know that?
 
