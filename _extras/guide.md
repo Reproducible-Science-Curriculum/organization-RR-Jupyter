@@ -27,12 +27,9 @@ One of the main functions of this activity is to provide an icebreaker for the g
 
 Slides can only be "served" locally from the instructors computer (there is a bug in Jupyter notebooks currently).
 
-To run: In terminal type 'jupyter nbconvert --to slides 02_slideshow_organization.ipynb --post serve' in directory with the `.ipynb`that contains slideshow. 
+To run: In terminal type:
 
-### Slide Notess
+'jupyter nbconvert --to slides 02_slideshow_organization.ipynb --post serve' 
 
-**Slide 1**:
+in directory with the `.ipynb` that contains slideshow. 
 
-**Slide 2**:
-
-**Slide 3**: 
