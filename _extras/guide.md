@@ -6,8 +6,7 @@ permalink: /guide/
 
 ## Overview
 
-There are just two sections of this lesson. 
-
+The heart of this lesson is episode 02, project organization and file naming. That episode consists primarily of two parts:
 1. Activity 
 2. Lesson
 
@@ -36,4 +35,8 @@ $ jupyter nbconvert --to slides 02_slideshow_organization.ipynb --post serve
 
 You must be in the directory that contains slideshows (`slides/`).
 
+## Timing and modifications
 
+As noted above, the heart of the lesson is episode 02. The following modifications to the sequence of episodes allow shortening the total time required by 15-20 minutes:
+- You can discuss the value of README files in essence as part of episode 02, i.e., without a separate exercise in creating and populating a README file (which is otherwis part of episode 03).
+- Within the full curriculum for the Reproducible Science using Jupyter Notebooks workshop, Episode 04 ("Modifying Data") is largely covered in the [Data Exploration](https://reproducible-science-curriculum.github.io/data-exploration-RR-Jupyter/) lesson, so should probably be skipped here (except for the major points that modifications never be made to the original data).

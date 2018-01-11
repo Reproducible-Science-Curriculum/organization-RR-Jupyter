@@ -1,6 +1,6 @@
 ---
 title: "Metadata"
-teaching: 10
+teaching: 5
 exercises: 5
 questions:
 - "Why should we use README files?"
