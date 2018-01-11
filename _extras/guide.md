@@ -23,13 +23,17 @@ One of the main functions of this activity is to provide an icebreaker for the g
 
 ## Slide Show
 
-### To run slideshow
+Make sure you regenerate (and commit) the HTML version of the slides if you modify the source Juputer Notebook. See the top-level `README`.
 
-Slides can only be "served" locally from the instructors computer (there is a bug in Jupyter notebooks currently).
+### To run slideshow locally
 
-To run: In terminal type:
+You can also serve the slides locally from your (the instructor's) computer. In a shell terminal run the following:
 
-'jupyter nbconvert --to slides 02_slideshow_organization.ipynb --post serve' 
+~~~
+$ jupyter nbconvert --to slides 02_slideshow_organization.ipynb --post serve
+~~~
+{: .source}
 
-in directory with the `.ipynb` that contains slideshow. 
+You must be in the directory that contains slideshows (`slides/`).
+
 
